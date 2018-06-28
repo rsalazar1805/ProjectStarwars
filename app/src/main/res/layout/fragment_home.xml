@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MovieTextFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/bg">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10pt"
+            >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/characters" />
+
+                    <Button
+                        android:id="@+id/btnPeople"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Poeple"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/planets" />
+
+                    <Button
+                        android:id="@+id/btnPlanets"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Planets"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/films" />
+
+                    <Button
+                        android:id="@+id/btnFilms"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Films"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/species" />
+
+                    <Button
+                        android:id="@+id/btnSpecies"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Species"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/vehicules" />
+
+                    <Button
+                        android:id="@+id/btnVehicles"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Vehicles"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="3pt"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="63dp"
+                        android:background="@drawable/border"
+                        android:src="@drawable/starships" />
+
+                    <Button
+                        android:id="@+id/btnStarships"
+                        android:layout_width="247dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:padding="5pt"
+                        android:text="Starships"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay"  parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.Texttitle" >
+        <item name="android:textColor">#e4d607</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">normal|bold|italic</item>
+    </style>
+    <style name="AppTheme.Filmtext">
+        <item name="android:textColor">#e4d607</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">normal|bold|italic</item>
+    </style>
+
+    <style name="AppTheme.YellowProgressBar">
+        <item name="colorAccent">#e4d607</item> <!-- Whatever color you want-->
+    </style>
+    <style name="AppTheme.Labels">
+        <item name="android:paddingRight">2pt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#df000000</item>
+        <item name="android:popupBackground">#dfd3d0d0</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+
+</resources>
